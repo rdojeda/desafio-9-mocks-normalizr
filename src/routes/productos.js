@@ -4,7 +4,6 @@ import productosApi from '../daos/productosApi.js';
 const router = Router()
 const api = new productosApi()
 
-
 router.get("/", (req, res) => {
     const allProducts = api.getAll()
     res.json(allProducts)

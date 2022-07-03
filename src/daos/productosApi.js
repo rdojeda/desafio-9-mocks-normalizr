@@ -2,6 +2,7 @@ import { ApiClass } from "../contenedores/clase.js";
 
 import { createProductsMock } from "../utils/mocks.js";
 
+
 export class productosApi extends ApiClass {
     constructor() {
         super()
@@ -17,8 +18,10 @@ export class productosApi extends ApiClass {
         }
         return productos
     }
+  
 
 }
+
 
 export default productosApi
 

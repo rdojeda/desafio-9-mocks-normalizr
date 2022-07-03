@@ -14,5 +14,7 @@ export class ApiClass {
     getAll() {
         return this.array
     }
+    
+
 }
 
